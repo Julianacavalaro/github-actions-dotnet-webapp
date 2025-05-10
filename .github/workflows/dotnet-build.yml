@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v1
       - name: ola_1
         run: echo "Olá do GitHub Actions!"
