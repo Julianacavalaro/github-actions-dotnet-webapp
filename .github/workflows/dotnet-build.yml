@@ -17,3 +17,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: ola_1
+      run: echo "Olá do GitHub Actions!"
