@@ -7,7 +7,7 @@ on:
   push:
     branches: 
       - main
-  workkflow_dispath:
+  workflow_dispath:
 jobs:
   build:
 
