@@ -8,12 +8,12 @@ on:
     branches: 
       - main
   workflow_dispatch:
-  
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-      - uses: echo "Ola1"
+      - uses: actions/checkout@v4
       - name: ola_1
